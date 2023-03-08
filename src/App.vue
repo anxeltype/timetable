@@ -1,10 +1,12 @@
 <script setup>
 import DaysWrapper from './components/DaysWrapper.vue';
+import Cont from "./components/Cont.vue";
 </script>
 
 <template>
   <div class="wrapper">
     <DaysWrapper></DaysWrapper>
+    <Cont></Cont>
   </div>
 </template>
 
@@ -17,7 +19,7 @@ import DaysWrapper from './components/DaysWrapper.vue';
 <script>
   export default {
     components: {
-      DaysWrapper
+      DaysWrapper,
+      Cont
     }
   }
-</script>
