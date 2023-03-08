@@ -1,6 +1,6 @@
 <template>
   <div class="days-wrapper">
-    <div class="day-item-wrapper" v-for="day in days" v-bind:key="day">
+    <div class="day-item-wrapper" v-for="day in days" v-bind:key="days.indexOf(day)">
       <h4>
         {{ day }}
       </h4>
@@ -9,13 +9,13 @@
 </template>
 
 <script>
-  export default {
-    data (){
-      return {
-        days: ["Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця"]
-      }
+export default {
+  data() {
+    return {
+      days: ['Понеділок', 'Вівторок', 'Середа', 'Четвер', "П'ятниця"]
     }
   }
+}
 </script>
 
 <style scoped>
@@ -40,7 +40,7 @@
   align-items: center;
   justify-content: center;
 
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 
 .day-item-wrapper:hover {

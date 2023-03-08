@@ -1,5 +1,5 @@
 <script setup>
-import TimerSandEmptyIcon from "vue-material-design-icons/TimerSandEmpty.vue";
+import TimerSandEmptyIcon from 'vue-material-design-icons/TimerSandEmpty.vue'
 </script>
 
 <template>
@@ -12,14 +12,15 @@ import TimerSandEmptyIcon from "vue-material-design-icons/TimerSandEmpty.vue";
 </template>
 
 <script>
-  export default {
-    components: {TimerSandEmptyIcon}
-  }
+export default {
+  components: { TimerSandEmptyIcon }
+}
 </script>
 
 <style scoped>
 .wrapper {
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,14 +28,14 @@ import TimerSandEmptyIcon from "vue-material-design-icons/TimerSandEmpty.vue";
 }
 p {
   font-size: 20px;
-  color:#999;
+  color: #999;
   margin-top: 70px;
 }
 
 .board {
-  width: 885px;
+  width: 894px;
   height: 466px;
   border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 10px 10px;
 }
-
 </style>
