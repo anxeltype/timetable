@@ -6,7 +6,7 @@ import TimerSandEmptyIcon from "vue-material-design-icons/TimerSandEmpty.vue";
   <div class="board">
     <div class="wrapper">
       <TimerSandEmptyIcon :size="186" fillColor="#ADADAD"></TimerSandEmptyIcon>
-      <p>Текст</p>
+      <p>#ThisIsJustTheBeginning</p>
     </div>
   </div>
 </template>
