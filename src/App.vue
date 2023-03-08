@@ -23,3 +23,4 @@ import Cont from "./components/Cont.vue";
       Cont
     }
   }
+</script>
